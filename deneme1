@@ -8,38 +8,26 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
+            margin: 50px;
             background-color: #331F18; /* Red: 51, Green: 31, Blue: 24 */
             color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        h1, h2, h3 {
-            margin: 0;
         }
         h1 {
             font-size: 36px;
         }
         h2 {
-            font-size: 48px;
-        }
-        h3 {
             font-size: 24px;
         }
     </style>
 </head>
 <body>
+    <h1>Şimdi Tatlı Zamanı</h1>
+    <h2>Iftar sonrası Algida Maraş Usulü sana özel %50 indirimli! ERDEM50</h2>
+
+    <!-- Audio element for background music -->
     <audio autoplay loop>
-        <source src="kadayifjingle.mp3.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/your-username/your-repository/main/kadayifjingle.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-
-    <h1>Şimdi Tatlı Zamanı</h1>
-    <h2>İftar sonrası Algida Maraş Usulü sana özel %50 indirimli!</h2>
-    <h3>ERDEM50</h3>
 </body>
 </html>
